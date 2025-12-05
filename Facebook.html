@@ -1,0 +1,86 @@
+```html
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Facebook</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #18191a;
+      color: #e4e6eb;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }.login-box {
+      background: #242526;
+      width: 360px;
+      padding: 40px 40px 60px 40px;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgb(0 0 0 / 0.7);
+      box-sizing: border-box;
+    }.login-box img {
+      display: block;
+      margin: 0 auto 20px auto;
+      width: 48px;
+      height: 48px;
+    }.login-box input[type="text"],.login-box input[type="password"] {
+      width: 100%;
+      height: 44px;
+      font-size: 16px;
+      padding: 0 12px;
+      margin-bottom: 12px;
+      border-radius: 6px;
+      border: none;
+      background: #3a3b3c;
+      color: white;
+      box-sizing: border-box;
+    }.login-box input::placeholder {
+      color: #b0b3b8;
+    }.login-box button {
+      width: 100%;
+      height: 44px;
+      background-color: #1877f2;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 6px;
+    }.login-box button:hover {
+      background-color: #166fe5;
+    }.login-box a {
+      color: #1877f2;
+      text-decoration: none;
+      font-size: 14px;
+      display: block;
+      margin: 20px 0 0 0;
+      text-align: center;
+    }.login-box.footer {
+      text-align: center;
+      color: #606770;
+      font-size: 12px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook Logo" />
+    <form>
+      <input type="text" placeholder="Mobile number or email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Log in</button>
+    </form>
+    <a href="#">Forgot password?</a>
+    <a href="#" style="font-weight:bold; margin-top:10px; display:block;">Create new account</a>
+    <div class="footer">Meta</div>
+  </div>
+</body>
+</html>
+```
